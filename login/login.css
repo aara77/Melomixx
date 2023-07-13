@@ -27,7 +27,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .wrapper .ss-box{
@@ -47,6 +47,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+
 }
 
 .ss-box h2{
