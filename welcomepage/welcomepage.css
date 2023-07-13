@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0;
 }
+#banner{
+    background-image: url("bg1.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100svh;
+    }  
