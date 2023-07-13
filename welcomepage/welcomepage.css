@@ -3,8 +3,14 @@
     padding: 0;
 }
 #banner{
-    background-image: url("bg1.webp");
+    background-image: linear-gradient(rgba(248, 165, 102, 0.5),#04c88d6d),url("bg1.webp");
     background-size: cover;
     background-position: center;
     height: 100svh;
     }  
+.logo{
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
