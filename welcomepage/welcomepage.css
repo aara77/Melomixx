@@ -67,10 +67,11 @@
     width: 250px;
     height: 100vh;
     position: fixed;
-    right: 0;
+    right: -250px;
     top: 0;
     background: #009688;
     z-index: 2;
+    transition: 0.5s;
 }
 nav ul li{
     list-style: none;
@@ -95,4 +96,13 @@ nav ul li a{
 #menuBtn img{
     width: 20px;
     margin-top: 15px;
+}
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-button a{
+        display: block;
+        margin: 20px auto;
+    }
 }
