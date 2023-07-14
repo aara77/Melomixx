@@ -11,7 +11,9 @@
     height: 100svh;
     }  
 .logo{
+    width: 200px;
     position: absolute;
+    justify-content: right;
     top: 0px;
     left: 0px; 
 }
