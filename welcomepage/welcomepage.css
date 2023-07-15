@@ -134,7 +134,7 @@ nav ul li a{
     content: '';
     width: 50px;
     height: 35px;
-    background: linear-gradient(#0a8d65ab,#fff);
+    background: linear-gradient(#aa0515ab,#fff);
     position: absolute;
     top: -20px;
     left: 0;
@@ -188,6 +188,71 @@ nav ul li a{
     border: 1px solid #0a8d65ab ;
 }
 .feature-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+
+
+
+??????????
+#contact{
+    width: 100%;
+    padding: 70px 0;
+}
+.titletext{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.titletext p{
+    margin: auto;
+    font-size: 20px;
+    color:#0a8d65ab;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.titletext p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#aa0515ab,#fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.titletext h1{
+    font-size: 50px;
+}
+.featuresbox{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.cont{
+    flex-basis: %;
+}
+.cont h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #0a8d65ab;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+}
+.cont-dis{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.cont-text p{
     padding: 0 20px;
     text-align: initial;
 }
