@@ -43,42 +43,55 @@
     </script> 
     <!--end of nav bar-->
 <!-- ------------------------------------------------- -->
-    <!--slider-->
-    <div class="slider">
-        <div class="list">
-            <div class="item">
-                <img src="taylor2.jpg">
-            </div>
-            <div class="item">
-                <img src="conan2.jpg">
-            </div>
-            <div class="item">
-                <img src="dynamite.jpg">
-            </div>
-            <div class="item">
-                <img src="1d1.jpg">
-            </div>
-            <div class="item">
-                <img src="jhari.jpg">
-            </div>
-        </div>
-        <!--button prev and next-->
-        <div class="buttons">
-            <button id="prev"><</button>
-            <button id="next">></button>
-        </div>
-        <!--dots (if 5 items =>5 dots)-->
-        <ul class="dots">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
-    
-    
+<!--slider-->
+    <section class="section">
+        <div class="slider">
+            <div class="slide">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="st first">
+                    <img src="conan2.jpg" alt="">
+                </div>
 
-<script src="homepage.js"></script>
+                <div class="st">
+                    <img src="jhari.jpg" alt="">
+                </div>
+
+                <div class="st">
+                    <img src="1d1.jpg" alt="">
+                </div>
+
+                <div class="st">
+                    <img src="calmdown.jpg" alt="">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="a-b1"></div>
+                    <div class="a-b2"></div>
+                    <div class="a-b3"></div>
+                    <div class="a-b4"></div>
+                </div>
+            </div>
+
+            <div class="nav-m">
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+    var counnter=1;
+    setInterval(function(){
+        document.getElementById?('radio' + counter).checked=true;
+        counter++;
+        if(counter > 5){
+            counter = 1;
+        }
+    },5000);
+    </script>
 </body>
 </html>
