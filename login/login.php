@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
+<?php
+
+
     <div class="ss">
             <h1>MELOMIX</h1>
     <div class="wrapper">      
@@ -29,7 +32,7 @@
               </div>
               <button type="submit" class="btn">Login</button>
              <div class="login-register">
-                  <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                  <p>Dont have an account?<a href="#" class="register-link">Register</a></p>
               </div>  
             </form> 
          </div>
