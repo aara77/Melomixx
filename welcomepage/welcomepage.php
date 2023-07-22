@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +33,7 @@
     <div id="SideNav">
         <nav>
             <ul>
-                <li><a href="/login/login.html">HOME</a></li>
+                <li><a href="/login/login.php">HOME</a></li>
                 <li><a href="/Aboutus/aboutus.html">ABOUT US</a></li>
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">NEWS</a></li>
