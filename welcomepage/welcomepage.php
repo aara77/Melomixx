@@ -23,7 +23,7 @@
             <h1>MELOMIX</h1>
             <p>Vibe With Us</p>
             <div class="banner-button">
-                <a href="/login/login.html"><span></span>LOGIN</a>
+                <a href="/Melomixx/login/login.php"><span></span>LOGIN</a>
                 <a href="/login/login.html"><span></span>LISTEN NOW</a>
             </div>
         </div>
@@ -34,7 +34,7 @@
         <nav>
             <ul>
                 <li><a href="/login/login.php">HOME</a></li>
-                <li><a href="/Aboutus/aboutus.html">ABOUT US</a></li>
+                <li><a href="/Melomixx/Aboutus/aboutus.html">ABOUT US</a></li>
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">LOG OUT</a></li>
