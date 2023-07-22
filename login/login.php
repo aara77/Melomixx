@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +9,8 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-   <?php
-       <div class="ss">
+
+    <div class="ss">
             <h1>MELOMIX</h1>
     <div class="wrapper">      
          <div class="ss-box ">
