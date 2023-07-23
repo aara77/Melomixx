@@ -33,7 +33,7 @@
     <div id="SideNav">
         <nav>
             <ul>
-                <li><a href="/login/login.php">HOME</a></li>
+                <li><a href="/Melomixx/HOMEPAGE/homepage.php">HOME</a></li>
                 <li><a href="/Melomixx/Aboutus/aboutus.html">ABOUT US</a></li>
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">NEWS</a></li>
@@ -122,30 +122,29 @@
                 <h1>Aarati Rai</h1>
                 <div class="feature-dis">
                     <div class="feature-text">
-                        <p><B><i><u>GIT</u></i></B>: </p>
-                        <p><B><i><u>Email</u></i></B>: aarati.211402.edu.np </p>
+                        <p><B><i><u>GIT: </u></i></B> </p>
+                        <p><B><i><u>Email: </u></i></B> aarati.211402@ncit.edu.np </p>
                     </div>
                 </div>
     
                 <h1>Shreya Shrestha</h1>
                 <div class="feature-dis">
-                
                     <div class="feature-text">
-                        <p><B><i><u>GIT</u></i></B>: shreyasstha</p>
-                        <p><B><i><u>Email</u></i></B>: </p>
+                        <p><B><i><u>GIT: </u></i></B>shreyasstha</p>
+                        <p><B><i><u>Email: </u></i></B> shreya.211438@ncit.edu.np </p>
                     </div>
                 </div>
                 
                 <h1>Special guest </h1>
                 <div class="feature-dis">
-                    <div class="feature-text">
+                    <div class="feature-text1">
                         <p><h3>Sunil Nath Yogi</h3></p>
-                        <p><B><i><u>GIT</u></i></B>: sunilyogi333</p>
-                        <p><B><i><u>Email</u></i></B>: </p>
+                        <p><B><i><u>GIT: </u></i></B>sunilyogi333</p>
+                        <p><B><i><u>Email: </u></i></B>sunil.2114</p>
                         <br>
                         <p><h3>Nabina Upadhyaha</h3></p>
-                        <p><B><i><u>GIT</u></i></B>: </p>
-                        <p><B><i><u>Email</u></i></B>: </p>
+                        <p><B><i><u>GIT: </u></i></B>nabina. </p>
+                        <p><B><i><u>Email: </u></i></B>nabina.211420@ncit.edu.np </p>
                     </div>
                 </div>
     
