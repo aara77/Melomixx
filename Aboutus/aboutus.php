@@ -1,3 +1,12 @@
+<?php
+  include'connect.php';
+  session_start();
+  if(!isset($_SESSION['login'])|| $_SESSION['login']!= true){
+    header('location:/Melomixx/login/login.php');
+    exit;
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +19,37 @@
 </head>
 <body>
     <section class="about">
-        <div class="topic">
+        <div class="heading">
             <h1>About Us</h1>
-            <br>
-            <p>Music is known as the Universal language. Melomix is a music player website.</p>
         </div>
+        <div class="paragraph">
+                <p><h1>Welcome to Melomix!</h1></p>
+               <p> At Melomix, we are all about celebrating the beauty and power of music. 
+                Our passion for melodies, rhythms, and harmonies drives us to create a platform that connects music enthusiasts from all walks of life.
+                 Whether you're an avid music lover, an aspiring artist, or a seasoned musician, we've got something special for you.</p><br>
+                <p><h1>Our Mission</h1></p>
+                   <p>Our mission is to bring the magic of music into the lives of people worldwide.
+                     We believe that music is a universal language that transcends boundaries and unites us all. Through our platform, we aim to:
+                     <ol>  
+                        <li>To help users discover new artists, albums, and genres related to their musical preferences.</li>
+                        <li>To create user-friendly and accessible platform.</li>
+                        <li>To make music more accessible and enjoyable.</li>
+                        <li>To create an opportunity that one can explore in the music industry.</li>
+                        <li>To design visually appealing and easy to navigate music player.</li>
+                     </ol>
+                    </p><br>
+                    <p><h1>Our Vision</h1></p>
+                    <p>We envision a world where music brings people together, evokes emotions, and sparks creativity. 
+                       Through our platform, we aim to spread the magic of music to every corner of the globe.
+                    </p><br>
+                    <p><h1>Join Us</h1></p>
+                    <p>Come, join our community of music enthusiasts, and let's embark on a melodious adventure together. 
+                        Tune in, explore, and let the music uplift your soul.
+                        Thank you for being a part of Melomix. Let's harmonize our love for music and make every beat count.
+                    </p><br>
+                        <p><h1>About us</h1></p>
+        </div>
+            
             <div class="content">
                 <div class="box">
                     <img src="Buttercup-pic.webp">
@@ -43,11 +78,11 @@
     <div id="SideNav">
         <nav>
             <ul>
-                <li><a href="/welcomepage/welcomepage.php">HOME</a></li>
+                <li><a href="/Melomixx/welcomepage/welcomepage.php">HOME</a></li>
                 <li><a href="#">ABOUT US</a></li>
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">NEWS</a></li>
-                <li><a href="#">LOG OUT</a></li>
+                <li><a href="/Melomixx/login/login.php">LOG OUT</a></li>
             </ul>
         </nav>
     </div>
@@ -74,13 +109,5 @@
     </script> 
     <!--end of nav bar-->
 <!-- ------------------------------------------------- -->
-
-
-
-
-    
-
-
-
 </body>
 </html>

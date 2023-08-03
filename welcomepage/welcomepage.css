@@ -191,11 +191,7 @@ nav ul li a{
     padding: 0 20px;
     text-align: initial;
 }
-
-
-
-??????????
-#contact{
+.contact{
     width: 100%;
     padding: 70px 0;
 }
@@ -236,9 +232,7 @@ nav ul li a{
     align-items: center;
     text-align: center;
 }
-.cont{
-    flex-basis: %;
-}
+
 .cont h1{
     text-align: left;
     margin-bottom: 10px;

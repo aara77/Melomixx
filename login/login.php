@@ -23,13 +23,15 @@ if (isset($_POST['lsubmit'])){
   $num=mysqli_num_rows($lresult);
 
   if($num==1){
+    session_start();
+    $_SESSION['login']=true;
     header('location:\Melomixx\HOMEPAGE\homepage.php');
-    exit;
+  
   }
 }
-
-
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,9 +42,6 @@ if (isset($_POST['lsubmit'])){
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-
-
-
     <div class="ss">
             <h1>MELOMIX</h1>
     <div class="wrapper">      
