@@ -9,7 +9,7 @@ if(!$conn)
 {
     echo "connection problem";
 }
-else{
-    echo "khatra";
-}
+// else{
+//     echo "khatra";
+// }
 ?>

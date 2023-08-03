@@ -1,10 +1,6 @@
 <?php
   include'C:\xampp\htdocs\Melomixx\login\connect.php';
   session_start();
-  if(!isset($_SESSION['login'])|| $_SESSION['login']!= true){
-    header('location:/Melomixx/login/login.php');
-    exit;
-  }
 ?>
 
 <!DOCTYPE html>
@@ -41,7 +37,7 @@
     <div id="SideNav">
         <nav>
             <ul>
-                <li><a href="/Melomixx/HOMEPAGE/">HOME</a></li>
+                <li><a href="/Melomixx/HOMEPAGE/homepage.php">HOME</a></li>
                 <li><a href="/Melomixx/Aboutus/aboutus.php">ABOUT US</a></li>
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">NEWS</a></li>
