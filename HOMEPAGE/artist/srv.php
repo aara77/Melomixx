@@ -1,25 +1,33 @@
+<?php
+  include'connect.php';
+  session_start();
+  if(!isset($_SESSION['login'])|| $_SESSION['login']!= true){
+    header('location:/Melomixx/login/login.php');
+    exit;
+  }
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BTS</title>
+  <title>Sajjan Raj Vaidya</title>
   <link rel="shortcut icon" type="x-icon" href="pic/icon1.png"> 
   <link rel="stylesheet" href="artist.css">
 </head>
 <body>
   <div class="container">
+    
     <img src="pic/MELOMIX-1 (6).png" class="logo">
     <div class="profile">
-      <img src="pic/BTS Spotify picture.jpeg" >
-      <h1>BTS</h1>
-      <p class="genre">Genres: K-pop, pop, hiphop, R&B</p>
+      <img src="pic/unnamed.jpg" >
+      <h1>Sajjan Raj Vaidya</h1>
+      <p class="genre">Genre: Indian Indie</p>
       <p class="description">
-        BTS, also known as the Bangtan Boys, is a South Korean band formed in 2010.
-         The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook, 
-         who co-write or co-produce their own material.
-         BTS debuted in 2013 under Big Hit Entertainment with the single album 2 Cool 4 Skool.
-         As of 2023,BTS is the best-selling artist in South Korean history according to the Circle Chart,
-          having sold in excess of 40 million albums.</p>
+        Sajjan Raj Vaidya is a Nepali singer, songwriter, guitarist and producer based in New York City.
+         His music is a symphony of expressive vocals, intricate metaphors and 
+         anomalous song structures arriving at the crescendo as a complete musical journey.</p>
     </div>
     <div class="music">
       <h2>Music</h2>
@@ -27,13 +35,13 @@
         <table>
             <td>  
             <div class="imgbox">
-                <img src="pic/butter.png"></td>
+                <img src="pic/chithi.jpeg"></td>
             <td>
-                <div class="title">Butter</div>
+                <div class="title">Chitthi Bhitra</div>
             </td>
             <td>
                 <audio controls>
-                  <source src="song/bts-butter.mp3" type="audio/mp3">
+                  <source src="song/Sajjan Raj Vaidya - Chitthi Bhitra.m4a" type="audio/mp3">
                 </audio>
             </td>
         </table>
@@ -41,13 +49,13 @@
         <table>
           <td>   
           <div class="imgbox">
-              <img src="pic/ptd.png"></td>
+              <img src="pic/sastomutu.jpeg"></td>
           <td>
-              <div class="title">Permission To Dance</div>
+              <div class="title">Sasto Mutu</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/bts-ptd.mp3" type="audio/mp3">
+                <source src="song/Sajjan Raj Vaidya - Sasto Mutu.mp3" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -55,13 +63,13 @@
         <table>
           <td> 
           <div class="imgbox">
-              <img src="pic/dyanamite.png"></td>
+              <img src="pic/hataarindai.jpg"></td>
           <td>
-              <div class="title">Dynamite </div>
+              <div class="title">Hataarindai Bataasindai </div>
           </td>
           <td>
               <audio controls>
-                <source src="song/bts-dynamite.mp3" type="audio/mp3">
+                <source src="song/Sajjan Raj Vaidya - Hataarindai_ Bataasindai.m4a" type="audio/mp3">
               </audio>
           </td>
          </table>
@@ -69,13 +77,13 @@
         <table>
           <td>
           <div class="imgbox">
-              <img src="pic/mic drop.jpg"></td>
+              <img src="pic/naganya maya.jpeg"></td>
           <td>
-              <div class="title">Mic Drop</div>
+              <div class="title">Naganya Maya</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/bts-mic drop.mp3" type="audio/mp3">
+                <source src="song/Sajjan Raj Vaidya - Naganya Maya.mp3" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -84,13 +92,13 @@
           <td>
               
           <div class="imgbox">
-              <img src="pic/BTS_-_Make_It_Right.png"></td>
+              <img src="pic/dhairya.jpeg"></td>
           <td>
-              <div class="title">Make It Right</div>
+              <div class="title">Dhairya</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/bts-make it right.mp3" type="audio/mp3">
+                <source src="song/Sajjan Raj Vaidya - Dhairya.m4a" type="audio/mp3">
               </audio>
           </td>
         </table>

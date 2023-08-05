@@ -1,8 +1,18 @@
+<?php
+  include'connect.php';
+  session_start();
+  if(!isset($_SESSION['login'])|| $_SESSION['login']!= true){
+    header('location:/Melomixx/login/login.php');
+    exit;
+  }
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Taylor Swift</title>
+  <title>BTS</title>
   <link rel="shortcut icon" type="x-icon" href="pic/icon1.png"> 
   <link rel="stylesheet" href="artist.css">
 </head>
@@ -10,14 +20,16 @@
   <div class="container">
     <img src="pic/MELOMIX-1 (6).png" class="logo">
     <div class="profile">
-      <img src="pic/Taylor swift spotify pic.jpeg" >
-      <h1>Taylor Swift</h1>
-      <p class="genre">Genres: Pop, country, folk, rock, alternative</p>
-      <p class="description">Taylor Alison Swift is an American singer-songwriter. 
-        Recognized for her songwriting, musical versatility, artistic reinventions, and influence on the music industry,
-         she is a prominent cultural figure of the 21st century.
-         Swift began professional songwriting at age 14 and signed with Big Machine Records in 2005 to become a country singer.
-         Under Big Machine, she released six studio albums starting with her self-titled album in 2006.</p>
+      <img src="pic/BTS Spotify picture.jpeg" >
+      <h1>BTS</h1>
+      <p class="genre">Genres: K-pop, pop, hiphop, R&B</p>
+      <p class="description">
+        BTS, also known as the Bangtan Boys, is a South Korean band formed in 2010.
+         The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook, 
+         who co-write or co-produce their own material.
+         BTS debuted in 2013 under Big Hit Entertainment with the single album 2 Cool 4 Skool.
+         As of 2023,BTS is the best-selling artist in South Korean history according to the Circle Chart,
+          having sold in excess of 40 million albums.</p>
     </div>
     <div class="music">
       <h2>Music</h2>
@@ -25,13 +37,13 @@
         <table>
             <td>  
             <div class="imgbox">
-                <img src="pic/taylor2.jpg"></td>
+                <img src="pic/butter.png"></td>
             <td>
-                <div class="title">Lover</div>
+                <div class="title">Butter</div>
             </td>
             <td>
                 <audio controls>
-                  <source src="song/Taylor Swift - Lover.mp3" type="audio/mp3">
+                  <source src="song/bts-butter.mp3" type="audio/mp3">
                 </audio>
             </td>
         </table>
@@ -39,13 +51,13 @@
         <table>
           <td>   
           <div class="imgbox">
-              <img src="pic/gorgeous.png"></td>
+              <img src="pic/ptd.png"></td>
           <td>
-              <div class="title">Gorgeous</div>
+              <div class="title">Permission To Dance</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Taylor Swift - Gorgeous (Lyric Video)(MP3_70K).mp3" type="audio/mp3">
+                <source src="song/bts-ptd.mp3" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -53,13 +65,13 @@
         <table>
           <td> 
           <div class="imgbox">
-              <img src="pic/you belong.webp"></td>
+              <img src="pic/dyanamite.png"></td>
           <td>
-              <div class="title">You Belong With Me</div>
+              <div class="title">Dynamite </div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Taylor Swift - You Belong With Me.mp3" type="audio/mp3">
+                <source src="song/bts-dynamite.mp3" type="audio/mp3">
               </audio>
           </td>
          </table>
@@ -67,13 +79,13 @@
         <table>
           <td>
           <div class="imgbox">
-              <img src="pic/snow.jpg"></td>
+              <img src="pic/mic drop.jpg"></td>
           <td>
-              <div class="title">Snow On The Beach</div>
+              <div class="title">Mic Drop</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Taylor Swift ft. Lana del Rey - Snow On The Beach (Official Lyric Video)(MP3_70K).mp3" type="audio/mp3">
+                <source src="song/bts-mic drop.mp3" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -82,13 +94,13 @@
           <td>
               
           <div class="imgbox">
-              <img src="pic/wildestdreams.jpeg"></td>
+              <img src="pic/BTS_-_Make_It_Right.png"></td>
           <td>
-              <div class="title">Wildest Dreams</div>
+              <div class="title">Make It Right</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Taylor Swift - Wildest Dreams.mp3" type="audio/mp3">
+                <source src="song/bts-make it right.mp3" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -100,7 +112,7 @@
     <nav>
         <ul>
             <li><a href="/Melomixx/welcomepage/welcomepage.php">HOME</a></li>
-            <li><a href="/Melomixx/Aboutus/aboutus.html">ABOUT US</a></li>
+            <li><a href="#">ABOUT US</a></li>
             <li><a href="#">SERVICES</a></li>
             <li><a href="#">NEWS</a></li>
             <li><a href="/Melomixx/login/login.php">LOG OUT</a></li>

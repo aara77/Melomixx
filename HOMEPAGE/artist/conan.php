@@ -1,8 +1,18 @@
+<?php
+  include'connect.php';
+  session_start();
+  if(!isset($_SESSION['login'])|| $_SESSION['login']!= true){
+    header('location:/Melomixx/login/login.php');
+    exit;
+  }
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sajjan Raj Vaidya</title>
+  <title>Conan Gray</title>
   <link rel="shortcut icon" type="x-icon" href="pic/icon1.png"> 
   <link rel="stylesheet" href="artist.css">
 </head>
@@ -11,13 +21,12 @@
     
     <img src="pic/MELOMIX-1 (6).png" class="logo">
     <div class="profile">
-      <img src="pic/unnamed.jpg" >
-      <h1>Sajjan Raj Vaidya</h1>
-      <p class="genre">Genre: Indian Indie</p>
+      <img src="pic/conan.jpg" >
+      <h1>Conan Gray</h1>
+      <p class="genre">Genre: Pop music, Indie pop, Lo-fi, Acoustic music, acoustic pop, Pop</p>
       <p class="description">
-        Sajjan Raj Vaidya is a Nepali singer, songwriter, guitarist and producer based in New York City.
-         His music is a symphony of expressive vocals, intricate metaphors and 
-         anomalous song structures arriving at the crescendo as a complete musical journey.</p>
+        Conan Lee Gray is an American singer and songwriter. Born in Lemon Grove, California, and raised in Georgetown, Texas, he began uploading vlogs, covers and original songs to YouTube as a teenager. 
+        In 2018, Gray signed a record deal with Republic Records, which released his debut EP, Sunset Season</p>
     </div>
     <div class="music">
       <h2>Music</h2>
@@ -25,13 +34,13 @@
         <table>
             <td>  
             <div class="imgbox">
-                <img src="pic/chithi.jpeg"></td>
+                <img src="pic/heather.jpeg"></td>
             <td>
-                <div class="title">Chitthi Bhitra</div>
+                <div class="title">Heather</div>
             </td>
             <td>
                 <audio controls>
-                  <source src="song/Sajjan Raj Vaidya - Chitthi Bhitra.m4a" type="audio/mp3">
+                  <source src="song/Conan Gray - Heather.mp3" type="audio/mp3">
                 </audio>
             </td>
         </table>
@@ -39,13 +48,13 @@
         <table>
           <td>   
           <div class="imgbox">
-              <img src="pic/sastomutu.jpeg"></td>
+              <img src="pic/astronomy.jpeg"></td>
           <td>
-              <div class="title">Sasto Mutu</div>
+              <div class="title">Astronomy</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Sajjan Raj Vaidya - Sasto Mutu.mp3" type="audio/mp3">
+                <source src="song/Conan Gray - Astronomy.mp3" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -53,13 +62,13 @@
         <table>
           <td> 
           <div class="imgbox">
-              <img src="pic/hataarindai.jpg"></td>
+              <img src="pic/the story.jpg"></td>
           <td>
-              <div class="title">Hataarindai Bataasindai </div>
+              <div class="title">The Story</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Sajjan Raj Vaidya - Hataarindai_ Bataasindai.m4a" type="audio/mp3">
+                <source src="song/Conan Gray - The Story).m4a" type="audio/mp3">
               </audio>
           </td>
          </table>
@@ -67,13 +76,13 @@
         <table>
           <td>
           <div class="imgbox">
-              <img src="pic/naganya maya.jpeg"></td>
+              <img src="pic/memoriea.jpeg"></td>
           <td>
-              <div class="title">Naganya Maya</div>
+              <div class="title">Memories</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Sajjan Raj Vaidya - Naganya Maya.mp3" type="audio/mp3">
+                <source src="song/Conan Gray - Memories.mp3" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -82,13 +91,13 @@
           <td>
               
           <div class="imgbox">
-              <img src="pic/dhairya.jpeg"></td>
+              <img src="pic/the cut.jpeg"></td>
           <td>
-              <div class="title">Dhairya</div>
+              <div class="title">The Cut That Always Bleeds</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Sajjan Raj Vaidya - Dhairya.m4a" type="audio/mp3">
+                <source src="song/Conan Gray - The Cut That Always Bleeds.mp3" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -110,6 +119,7 @@
 <div id="menuBtn">
     <img src="pic/menu.png" id="menu">
 </div>
+
 <script>
     var menuBtn= document.getElementById("menuBtn")
     var SideNav= document.getElementById("SideNav")

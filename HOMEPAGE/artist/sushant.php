@@ -1,8 +1,18 @@
+<?php
+  include'connect.php';
+  session_start();
+  if(!isset($_SESSION['login'])|| $_SESSION['login']!= true){
+    header('location:/Melomixx/login/login.php');
+    exit;
+  }
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arijit Singh</title>
+  <title>Susant KC</title>
   <link rel="shortcut icon" type="x-icon" href="pic/icon1.png"> 
   <link rel="stylesheet" href="artist.css">
 </head>
@@ -10,12 +20,14 @@
   <div class="container">
     <img src="pic/MELOMIX-1 (6).png" class="logo">
     <div class="profile">
-      <img src="pic/as.webp" >
-      <h1>Arijit Singh</h1>
-      <p class="genre">Genres: Indian Film Pop, Indian Indie, pop</p>
-      <p class="description">Arijit Singh is an Indian playback singer and music composer.
-         The recipient of several accolades including a National Film Award and seven Filmfare Awards,
-          he has recorded songs in several Indian languages.</p>
+      <img src="pic/sushantkc.jpg" >
+      <h1>Sushant KC</h1>
+      <p class="genre">Genres: Pop, pop rock</p>
+      <p class="description">
+        Sushant KC is a Nepali Experimental Pop singer, songwriter, guitarist and performer. 
+        Currently enrolled in Berklee College of Music, Boston,
+         Sushant is pursuing his undergraduate degree in Music Production and Songwriting.
+      </p>
     </div>
     <div class="music">
       <h2>Music</h2>
@@ -23,13 +35,13 @@
         <table>
             <td>  
             <div class="imgbox">
-                <img src="pic/tere hawale.jpg"></td>
+                <img src="pic/gulabi.jpeg"></td>
             <td>
-                <div class="title">Tere Hawalea</div>
+                <div class="title">Gulabi</div>
             </td>
             <td>
                 <audio controls>
-                  <source src="song/Arijit Singh-tere hawaale.m4a" type="audio/mp3">
+                  <source src="song/Sushant KC - Gulabi.m4a" type="audio/mp3">
                 </audio>
             </td>
         </table>
@@ -37,13 +49,13 @@
         <table>
           <td>   
           <div class="imgbox">
-              <img src="pic/arijit.jpg"></td>
+              <img src="pic/mayama.jpeg"></td>
           <td>
-              <div class="title">Love Me Thoda</div>
+              <div class="title">Maya Ma</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Arijit Singh- love me thoda.m4a" type="audio/mp3">
+                <source src="song/Sushant KC - Maya ma.m4a" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -51,13 +63,13 @@
         <table>
           <td> 
           <div class="imgbox">
-              <img src="pic/shayad.jpg"></td>
+              <img src="pic/sus.jpeg"></td>
           <td>
-              <div class="title">Shayad</div>
+              <div class="title">Muskyrayera</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Arijit Singh-shayad.mp3" type="audio/mp3">
+                <source src="song/Sushant KC - Muskurayera .m4a" type="audio/mp3">
               </audio>
           </td>
          </table>
@@ -65,13 +77,13 @@
         <table>
           <td>
           <div class="imgbox">
-              <img src="pic/hamdard.jpeg"></td>
+              <img src="pic/behos.jpg"></td>
           <td>
-              <div class="title">Hamdard</div>
+              <div class="title">Behos</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Arijit Singh-hamdard.m4a" type="audio/mp3">
+                <source src="song/Sushant KC - Behos.m4a" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -80,13 +92,13 @@
           <td>
               
           <div class="imgbox">
-              <img src="pic/phir.jpg"></td>
+              <img src="pic/risaune.jpeg"></td>
           <td>
-              <div class="title">Phir Kabhi</div>
+              <div class="title">Risaune Bhaye</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Arijit Singh-phir kabhi.m4a" type="audio/mp3">
+                <source src="song/Sushant KC - Risaune Bhaye.mp3" type="audio/mp3">
               </audio>
           </td>
         </table>

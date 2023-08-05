@@ -1,8 +1,18 @@
+<?php
+  include'connect.php';
+  session_start();
+  if(!isset($_SESSION['login'])|| $_SESSION['login']!= true){
+    header('location:/Melomixx/login/login.php');
+    exit;
+  }
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olivia Rodrigo</title>
+  <title>IU</title>
   <link rel="shortcut icon" type="x-icon" href="pic/icon1.png"> 
   <link rel="stylesheet" href="artist.css">
 </head>
@@ -10,13 +20,14 @@
   <div class="container">
     <img src="pic/MELOMIX-1 (6).png" class="logo">
     <div class="profile">
-      <img src="pic/olivia.jpeg" >
-      <h1>Olivia Rodrigo</h1>
-      <p class="genre">Genres: Pop, pop rock</p>
-      <p class="description">Olivia Isabel Rodrigo is an American singer-songwriter and actress.
-         She gained recognition in the late 2010s with her lead roles on the Disney television programs High School Musical: The Musical.
-         Rodrigo released her debut single "Drivers License", which broke various records and became one of the best-selling songs of 2021. 
-         She followed it up with singles "Deja Vu" and "Good 4 U", and released her debut solo studio album, Sour (2021)</p>
+      <img src="pic/iu.jpeg" >
+      <h1>Lee Ji-eun</h1>
+      <p class="genre">Genres: Kpop, R&B, soul</p>
+      <p class="description">Lee Ji-eun also known by her stage name IU (아이유), is a South Korean singer-songwriter, composer, and actress.
+         She signed with LOEN Entertainment in 2007 as a trainee and debuted as a singer with her first extended play Lost and Found.
+         IU has released a total of five studio albums and nine EPs, five of which have reached number one on the Gaon Album Chart, 
+        making her the artist with the most number-one songs in South Korea.
+      </p>
     </div>
     <div class="music">
       <h2>Music</h2>
@@ -24,13 +35,13 @@
         <table>
             <td>  
             <div class="imgbox">
-                <img src="pic/good4u.jpg"></td>
+                <img src="pic/celebrity.jpeg"></td>
             <td>
-                <div class="title">Good 4 U</div>
+                <div class="title">Celebrity</div>
             </td>
             <td>
                 <audio controls>
-                  <source src="song/Olivia Rodrigo - good 4 u.mp3" type="audio/mp3">
+                  <source src="song/IU(아이유) _ Celebrity.m4a" type="audio/mp3">
                 </audio>
             </td>
         </table>
@@ -38,13 +49,13 @@
         <table>
           <td>   
           <div class="imgbox">
-              <img src="pic/sour.png"></td>
+              <img src="pic/lilac.jpeg"></td>
           <td>
-              <div class="title">Brutal</div>
+              <div class="title">Lilac</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Olivia Rodrigo - brutal.mp3" type="audio/mp3">
+                <source src="song/IU(아이유)_LILAC.m4a" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -52,13 +63,13 @@
         <table>
           <td> 
           <div class="imgbox">
-              <img src="pic/favcrime.jpg"></td>
+              <img src="pic/blueming.jpg"></td>
           <td>
-              <div class="title">Favourite crime</div>
+              <div class="title">Blueming</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Olivia Rodrigo - favorite crime.mp3" type="audio/mp3">
+                <source src="song/IU(아이유) _-Blueming.m4a" type="audio/mp3">
               </audio>
           </td>
          </table>
@@ -66,13 +77,13 @@
         <table>
           <td>
           <div class="imgbox">
-              <img src="pic/prom.jpg"></td>
+              <img src="pic/bbibbi.jpg"></td>
           <td>
-              <div class="title">Driver's License</div>
+              <div class="title">BBIBBI</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Olivia Rodrigo - drivers license.mp3" type="audio/mp3">
+                <source src="song/IU(아이유) _ BBIBBI.m4a" type="audio/mp3">
               </audio>
           </td>
         </table>
@@ -81,13 +92,13 @@
           <td>
               
           <div class="imgbox">
-              <img src="pic/dejavu.jpg"></td>
+              <img src="pic/pallate.jpg"></td>
           <td>
-              <div class="title">Deja Vu</div>
+              <div class="title">Palette</div>
           </td>
           <td>
               <audio controls>
-                <source src="song/Olivia Rodrigo - deja vu.mp3" type="audio/mp3">
+                <source src="song/IU(아이유) _ Palette.m4a" type="audio/mp3">
               </audio>
           </td>
         </table>
