@@ -1,5 +1,5 @@
 <?php
-  include'C:\xampp\htdocs\Melomixx\login\connect.php';
+ include'C:\xampp\htdocs\Melomixx\login\connect.php';
   session_start();
   if(!isset($_SESSION['login'])|| $_SESSION['login']!= true){
     header('location:/Melomixx/login/login.php');
@@ -90,7 +90,7 @@
 
     <div class="mySlides fade">
         <div class="numbertext">5 / 5</div>
-        <img src="images/slideshowbts.png" style="width:100%">
+        <img src="images/suzu6.jpg" style="width:100%">
         <div class="text"></div>
       </div>
       
@@ -110,7 +110,7 @@
 <!------------------------------------------------------------------------------------>
 <!--body-->
 <h2>NEW RELEASE</h2>
-<p>Use the horizontal scrollbar to see the other images.</p>
+<p></p>
 <div class="scroll-container">
     <a href="https://youtu.be/QU9c0053UAU" target="_blank">
         <img src="images/jk7.jpg" alt="Cinque Terre" width="300" height="300">
@@ -133,7 +133,7 @@
 </div>
     
 <h2>Famous OSTs</h2>
-<p>Use the horizontal scrollbar to see the other images.</p>
+<p></p>
 <div class="scroll-container">
     <a href="https://youtu.be/-pHfPJGatgE" target="_blank">
         <img src="images/YourName.jpg" alt="Cinque Terre" width="300" height="300">
@@ -167,64 +167,6 @@
     </a>            
       
 </div>
-<!--New Release--
-<h2>NEW RELEASE</h2>
-<div class="image-scroll-container1">
-    <a class="scroll-link1" href="#link1">
-        <img src="images/YpurName2.jpg" alt="Image 1">
-    </a>
-    <a class="scroll-link1" href="#link2">
-        <img src="images/YpurName2.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link1" href="#link2">
-        <img src="images/YpurName2.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link1" href="#link2">
-        <img src="images/YpurName2.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link1" href="#link2">
-        <img src="images/YpurName2.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link1" href="#link2">
-        <img src="images/YpurName2.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link1" href="#link2">
-        <img src="images/YpurName2.jpg" alt="Image 2">
-    </a>
-
-
-    
-    <!-- Add more images and links as needed -->
-</div>
-
-<!--End of New Release-->
-
-<!--ost--
-<h2>Famous osts</h2>
-<div class="image-scroll-container2">
-    <a class="scroll-link2" href="https://youtu.be/-pHfPJGatgE">
-        <img src="images/YpurName2.jpg" alt="Image 1">
-    </a>
-    <a class="scroll-link2" href="https://youtu.be/GUV50QDDR-M">
-        <img src="images/alovesobeautiful.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link2" href="https://youtu.be/qal34e9v_pk">
-        <img src="images/suzume.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link2" href="https://youtu.be/cPAbx5kgCJo">
-        <img src="images/moana.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link2" href="https://youtu.be/CUj2AWEJnwQ">
-        <img src="images/nikibarbie.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link2" href="https://youtu.be/wdHeiVf0mds">
-        <img src="images/goblin.jpg" alt="Image 2">
-    </a>
-    <a class="scroll-link2" href="https://youtu.be/qal34e9v_pk">
-        <img src="images/suzume.jpg" alt="Image 2">
-    </a>
-</div>
-
 <!--end of ost-->
 <!--Artists-->
 <section class="artist" id="artist">
