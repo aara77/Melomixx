@@ -1,10 +1,15 @@
 <?php
-    $servername="localhost";
-    $username="root";
-    $password="";
-    $dbname="my_CRUD";
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="melomix";
+
 $conn=mysqli_connect($servername,$username,$password,$dbname);
-// if (!$conn) {
-//     die("Connection error");
+if(!$conn)
+{
+    echo "connection problem";
+}
+// else{
+//     echo "khatra";
 // }
 ?>

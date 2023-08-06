@@ -4,9 +4,33 @@
     box-sizing: border-box;
     font-family: 'Kaushan Script', cursive;
     font-family: "Poppins", sans-serif;
+    
 }
 body{ 
     background-color: rgba(131, 185, 80, 0.5);
+}
+
+.heading h1{
+    text-align: center;
+    padding-bottom: 7px;
+    font-size: 50px;
+    color: #0a8d65ab;
+    font-family: 'Kaushan Script', cursive;
+}
+.paragraph{
+    padding: 0 20px;
+    text-align: initial;
+}
+.paragraph ol{
+    padding: 10px;
+}
+.paragraph h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #0a8d65ab;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
 }
 .about{
     position: relative;

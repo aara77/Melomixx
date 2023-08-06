@@ -1,3 +1,8 @@
+<?php
+  include'C:\xampp\htdocs\Melomixx\login\connect.php';
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +27,7 @@
             <h1>MELOMIX</h1>
             <p>Vibe With Us</p>
             <div class="banner-button">
-                <a href="/login/login.html"><span></span>LOGIN</a>
+                <a href="/Melomixx/login/login.php"><span></span>LOGIN</a>
                 <a href="/login/login.html"><span></span>LISTEN NOW</a>
             </div>
         </div>
@@ -32,11 +37,11 @@
     <div id="SideNav">
         <nav>
             <ul>
-                <li><a href="/login/login.html">HOME</a></li>
-                <li><a href="/Aboutus/aboutus.html">ABOUT US</a></li>
+                <li><a href="/Melomixx/HOMEPAGE/homepage.php">HOME</a></li>
+                <li><a href="/Melomixx/Aboutus/aboutus.php">ABOUT US</a></li>
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">NEWS</a></li>
-                <li><a href="#">LOG OUT</a></li>
+                <li><a href="logout.php">LOG OUT</a></li>
             </ul>
         </nav>
     </div>
@@ -111,7 +116,7 @@
 <!-- ------------------------------------------------- -->
 
 <!--contact-->
-      <section id="contact">
+      <section class="contact">
         <div class="titletext">
         <p>CONTACT</p>
         <h1>find us in</h1>
@@ -121,8 +126,8 @@
                 <h1>Aarati Rai</h1>
                 <div class="feature-dis">
                     <div class="feature-text">
-                        <p><B><i><u>GIT</u></i></B>: </p>
-                        <p><B><i><u>Email</u></i></B>: aarati.211402.edu.np </p>
+                        <p><B><i><u>GIT: </u></i></B>aarati </p>
+                        <p><B><i><u>Email: </u></i></B>aarati.211402@ncit.edu.np </p>
                     </div>
                 </div>
     
@@ -130,8 +135,8 @@
                 <div class="feature-dis">
                 
                     <div class="feature-text">
-                        <p><B><i><u>GIT</u></i></B>: shreyasstha</p>
-                        <p><B><i><u>Email</u></i></B>: </p>
+                        <p><B><i><u>GIT:</u></i></B>shreyasstha</p>
+                        <p><B><i><u>Email:</u></i></B>shreya.211438@ncit.edu.np</p>
                     </div>
                 </div>
                 
@@ -139,12 +144,12 @@
                 <div class="feature-dis">
                     <div class="feature-text">
                         <p><h3>Sunil Nath Yogi</h3></p>
-                        <p><B><i><u>GIT</u></i></B>: sunilyogi333</p>
-                        <p><B><i><u>Email</u></i></B>: </p>
+                        <p><B><i><u>GIT:</u></i></B>sunilyogi333</p>
+                        <p><B><i><u>Email:</u></i></B>sunil.2114</p>
                         <br>
                         <p><h3>Nabina Upadhyaha</h3></p>
-                        <p><B><i><u>GIT</u></i></B>: </p>
-                        <p><B><i><u>Email</u></i></B>: </p>
+                        <p><B><i><u>GIT: </u></i></B>nabs</p>
+                        <p><B><i><u>Email: </u></i></B>nabina.211420@ncit.edu.np</p>
                     </div>
                 </div>
     
